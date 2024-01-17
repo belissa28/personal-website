@@ -7,20 +7,26 @@ import NavBar from './NavBar';
 import routes from './routes';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 function App() {
 
 
   return (
     <Router>
-      <NavBar />
-      <div className="container mt-4">
-        <Routes>
-          {routes.map((route, index) => (
-            <Route key={index} path={route.path} element={route.component} />
-          ))}
-        </Routes>
+
+      <div style={{ backgroundColor: 'grey', color: 'black', minHeight: '100vh' }}>
+        <NavBar />
+
+        <div style={{ color: 'black' }} className="container mt-4">
+          <Routes>
+            {routes.map((route, index) => (
+              <Route key={index} path={route.path} element={route.component} />
+            ))}
+          </Routes>
+        </div>
       </div>
-    </Router>
+
+    </Router >
 
   );
 
