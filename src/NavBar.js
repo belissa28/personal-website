@@ -17,6 +17,10 @@ const NavBar = () => {
                         <Nav.Link as={NavLink} to="/about" className={styles.navLink} style={{ color: 'white' }} >
                             About
             </Nav.Link>
+                        <Nav.Link as={NavLink} to="/work" className={styles.navLink} style={{ color: 'white' }} >
+                            Work
+            </Nav.Link>
+
                         <Nav.Link as={NavLink} to="/contact" className={styles.navLink} style={{ color: 'white' }} >
                             Contact
             </Nav.Link>
