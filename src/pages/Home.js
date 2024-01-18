@@ -7,15 +7,12 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-// const bull = (
-//     <Box
-//         component="span"
-//         sx={{ display: 'inline-block', mx: '2px', transform: 'scale(0.8)' }}
-//     >
-//         •
-//     </Box>
-// );
+import { NavLink } from 'react-router-dom';
+
+// import routes from '../routes';
+
 function Home() {
+    // const aboutRoute = routes.find((route) => route.path === '/about');
     return (
         <div>
 
@@ -37,10 +34,11 @@ function Home() {
                             image={Belissacomputer}
                             alt="Belissa"
                         />
-                        {/* <Typography variant="h4" component="div">
-                            Heading
+                        <Typography variant="h4" component="div">
+                            Hi there and welcome to my webpage! I'm Belissa a software engineer with full stack experience, with a passion for frontend and design!
+                            Want to learn more about me? Click the 'About me' button below and have fun.
             </Typography>
-                        <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                        {/* <Typography sx={{ mb: 1.5 }} color="text.secondary">
                             describes the heading
             </Typography>
                         <Typography variant="body1">
@@ -50,7 +48,16 @@ function Home() {
                         </Typography> */}
                     </CardContent>
                     <CardActions>
-                        <Button size="small">About me</Button>
+                        {/* <NavLink to={aboutRoute.path}>
+                            <Button size="small">About me</Button>
+                        </NavLink> */}
+
+                        <NavLink to='/about'>
+                            <Button size="small">About Me</Button>
+                        </NavLink>
+                        {/* <NavLink to='/about'>
+                            <Button size="small">About me</Button>
+                        </NavLink> */}
                     </CardActions>
                 </Card>
             </div>
