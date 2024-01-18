@@ -29,7 +29,7 @@ function Home() {
             </Typography> */}
                         <CardMedia
                             component="img"
-                            height="650"
+                            height="500"
                             width="140"
                             image={Belissacomputer}
                             alt="Belissa"
