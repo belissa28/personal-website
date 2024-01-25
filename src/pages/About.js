@@ -23,7 +23,6 @@ function About() {
 
 
 
-
                 <h2>2021-2022</h2>
                 <p>After graduation, I got a job as a Quality Assurance Engineer working for a company called Cognizant! There I learned more about testing, which allowed me to truly
                 appreciate the work that goes into testing the product.

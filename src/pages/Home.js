@@ -1,6 +1,6 @@
 import React from 'react';
 import Belissacomputer from './Belissacomputer.jpg';
-import Box from '@mui/material/Box';
+// import Box from '@mui/material/Box';
 import CardMedia from '@mui/material/CardMedia';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -16,10 +16,7 @@ function Home() {
     return (
         <div>
 
-            {/* <div>
-                <img src={Belissacomputer} alt="Belissa" height={150} width={250} />
-                <h1> Home Page bb</h1>
-            </div> */}
+
 
             <div style={{ margin: '7%', height: '20px' }}>
                 <Card sx={{ maxWidth: 12000 }}>
@@ -38,26 +35,15 @@ function Home() {
                             Hi there and welcome to my webpage! I'm Belissa a proficient software engineer possessing comprehensive full-stack expertise, with a keen focus on frontend development and cybersecurity.!
                             Want to learn more about me? Click the 'About Me' button below and have fun.
             </Typography>
-                        {/* <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                            describes the heading
-            </Typography>
-                        <Typography variant="body1">
-                            Card content
-              <br />
-                            {'"describes the content"'}
-                        </Typography> */}
+
                     </CardContent>
                     <CardActions>
-                        {/* <NavLink to={aboutRoute.path}>
-                            <Button size="small">About me</Button>
-                        </NavLink> */}
+
 
                         <NavLink to='/about'>
                             <Button size="small">About Me</Button>
                         </NavLink>
-                        {/* <NavLink to='/about'>
-                            <Button size="small">About me</Button>
-                        </NavLink> */}
+
                     </CardActions>
                 </Card>
             </div>
