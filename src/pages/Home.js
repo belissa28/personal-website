@@ -35,8 +35,8 @@ function Home() {
                             alt="Belissa"
                         />
                         <Typography variant="h4" component="div">
-                            Hi there and welcome to my webpage! I'm Belissa a software engineer with full stack experience, with a passion for frontend and design!
-                            Want to learn more about me? Click the 'About me' button below and have fun.
+                            Hi there and welcome to my webpage! I'm Belissa a proficient software engineer possessing comprehensive full-stack expertise, with a keen focus on frontend development and cybersecurity.!
+                            Want to learn more about me? Click the 'About Me' button below and have fun.
             </Typography>
                         {/* <Typography sx={{ mb: 1.5 }} color="text.secondary">
                             describes the heading
