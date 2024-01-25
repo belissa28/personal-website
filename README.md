@@ -1,4 +1,4 @@
-# personal-website
+# Belissa's-personal-website
 Hi there, so happy you're here!
 
 My name is Belissa and I enjoy creating, designing and developing. I have experience as a software engineer and wanted to code my own website.
