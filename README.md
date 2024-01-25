@@ -6,4 +6,5 @@ Just like how homemade meals are the best ones (in my humble opinion they are), 
 Enjoy learning more about me as this website is also trying to showcase Belissa: the person behind the Software Engineering title.
 
 Thanks for stopping by,
+
 Belissa
