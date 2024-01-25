@@ -1,6 +1,23 @@
 // Contact.js
-import React from 'react';
+import React, { useState } from 'react';
+import { Typography } from '@mui/material';
+function Contact() {
+    const [alignment] = useState("");
+    return (
+        <Typography>
+            <h1 alaign={alignment}> Let's Connect!</h1>
+            <div>
+                <a href='https://www.linkedin.com/in/belissa-baez/' class='linkedin-link' target="_blank" rel="noopener noreferrer">
+                    Connect with me on Linkedin!
+        </a>
+            </div>
 
-const Contact = () => <h1>Contact Page</h1>;
+        </Typography>
+
+
+    )
+}
+
+// const Contact = () => <h1>Contact Page</h1>;
 
 export default Contact;

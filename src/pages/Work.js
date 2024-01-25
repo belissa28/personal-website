@@ -15,7 +15,7 @@ function Work() {
             <p>There you'll see the students research projects linked to their images.</p>
 
             <div>
-                <a href="https://opportunitynetwork.org/oppnet-ssrp-staff/" target="_blank" rel="noopener noreferrer">
+                <a href="https://opportunitynetwork.org/oppnet-ssrp-staff/" target="_blank" rel="noopener noreferrer" class='ssrp-link'>
                     SSRP Webpage </a>
 
             </div>

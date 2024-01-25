@@ -44,7 +44,7 @@ function Home() {
 
 
                         <NavLink to='/about'>
-                            <Button size="small">About Me</Button>
+                            <Button size="small" class='about-me'>About Me</Button>
                         </NavLink>
 
                     </CardActions>
