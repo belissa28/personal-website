@@ -9,6 +9,7 @@ function Work() {
 
         <Typography>
             <h1 align={alignment}>Work/Resume</h1>
+            <hr></hr>
 
             <p>In 2020, I worked as a front end developer and educator for high achieving low-income students as part of The Opportunity Network (which I was also a part of).</p>
             <p>Below is the link that takes you to the website I designed and developed through the use of Wordpress.</p>

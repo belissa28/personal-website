@@ -9,6 +9,7 @@ function Fun() {
 
         <Typography>
             <h1 align={alignment}>Okay okay, I get it you want to see my fun/funny side that's why you clicked this tab, didn't you. I know you did. Well, here it goes:</h1>
+            <hr></hr>
             <ol>
                 <li>I have been to Hawaii!</li>
                 <li>I got a kiss from a dolphin once.</li>
