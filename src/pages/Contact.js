@@ -13,7 +13,7 @@ function Contact() {
         </a>
                 <br></br>
 
-                <a href='belissa.baez.28@gmail.com' class='email-link' target="_blank" rel="noopener noreferrer">
+                <a href='mailto:belissa.baez.28@gmail.com' class='email-link' target="_blank" rel="noopener noreferrer">
                     Email me!
         </a>
 
