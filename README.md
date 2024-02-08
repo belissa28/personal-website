@@ -12,4 +12,5 @@ To run this code, simply git clone and run the command "npm start".
 Thanks for stopping by! You are now cooler than before : )
 
 Best,
+
 Belissa
