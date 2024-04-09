@@ -1,6 +1,8 @@
 // Contact.js
 import React, { useState } from 'react';
 import { Typography } from '@mui/material';
+import pdf from './BelissaResume2024.pdf';
+
 function Contact() {
     const [alignment] = useState("");
     return (
@@ -16,6 +18,8 @@ function Contact() {
                 <a href='mailto:belissa.baez.28@gmail.com' class='email-link' target="_blank" rel="noopener noreferrer">
                     Email me!
         </a>
+                <br></br>
+                <a href={pdf} download="BelissaResume2024.pdf" className="download-resume">Download my resume, yay!</a>
 
             </div>
 
