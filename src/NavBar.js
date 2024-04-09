@@ -7,7 +7,7 @@ const NavBar = () => {
     return (
         <Navbar bg="black" expand="lg">
             <Container fluid className={styles.navbarContainer}>
-                <Navbar.Brand as={NavLink} to="/" className={styles.navbar} style={{ color: 'white', fontWeight: 'bold', marginLeft: 'auto' }}>React App</Navbar.Brand>
+                <Navbar.Brand as={NavLink} to="/" className={styles.navbar} style={{ color: 'white', fontWeight: 'bold', marginLeft: 'auto' }}>Belissa's Website</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto" >
