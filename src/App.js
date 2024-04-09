@@ -14,10 +14,10 @@ function App() {
   return (
     <Router>
 
-      <div style={{ backgroundColor: 'grey', color: 'black', minHeight: '100vh' }}>
+      <div style={{ backgroundColor: 'black', color: 'black', minHeight: '100vh' }}>
         <NavBar />
 
-        <div style={{ color: 'black' }} className="container mt-4">
+        <div style={{ color: 'white' }} className="container mt-4">
           <Routes>
             {routes.map((route, index) => (
               <Route key={index} path={route.path} element={route.component} />
